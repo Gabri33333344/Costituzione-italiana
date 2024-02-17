@@ -1,0 +1,84 @@
+.stripa-superiore {
+    background-color: #007bff; /* colore blu */
+    height: 20px; /* altezza della striscia */
+    width: 100%; /* larghezza al 100% della larghezza della finestra del browser */
+    display: flex;
+    justify-content: flex-start; /* allinea il contenuto a sinistra */
+    align-items: center; /* centra verticalmente il contenuto */
+    padding-bottom: 15px; /* aggiungi padding in basso */
+  }
+  
+  .nome {
+    color: #fff; /* colore del testo bianco */
+    margin-left: 30px; /* margine sinistro per spaziatura */
+    font-size: 1.5rem; /* dimensione del testo */
+    margin-top: -17px;
+  }
+
+
+  .categoria {
+    color: #fff; /* colore del testo bianco */
+    margin-left: 50px; /* margine sinistro per spaziatura tra le categorie */
+    text-decoration:none;
+    margin-top: -17px
+  }
+  
+  .categoria:hover {
+    text-decoration: underline; /* sottolinea il testo al passaggio del mouse */
+  }
+  
+  .nome a:not(:last-child) {
+    border-right: 10px solid #ccc; /* aggiunge una linea grigia tra le categorie, eccetto l'ultima */
+    padding-right: 15px; /* spazio tra la categoria e la linea grigia */
+  }
+
+  .separator {
+    height: 30px;
+    width: 1px;
+    background-color: #ccc;
+    margin-left: 38px;
+    margin-top: -20px;
+}
+
+
+  .nome {
+    color: #fff; /* colore del testo bianco */
+    font-size: 1.5rem; /* dimensione del testo */
+    margin-top: -18px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 40px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-left: 40px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #332e2c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 7px;
+
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
